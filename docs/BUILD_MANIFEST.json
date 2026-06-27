@@ -1,0 +1,202 @@
+{
+  "created_at_utc": "2026-06-27T09:06:13.303118+00:00",
+  "source_root": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS",
+  "destination": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/oscar-rezka-comments-public",
+  "files": [
+    {
+      "destination": "scripts/collection/00_capture_session.py",
+      "source": "/var/folders/j1/p2qvyplx67lfm2kfmhw_tb700000gn/T/rezka_repo_build_j6jrx22p/00_capture_session.py",
+      "sha256": "f708e229c6d4feafb0539f30b0ce54d65b9050d109b46380838cf6b7740d9abf",
+      "size_bytes": 3612,
+      "role": "collection",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/collection/01_resolve_urls.py",
+      "source": "/var/folders/j1/p2qvyplx67lfm2kfmhw_tb700000gn/T/rezka_repo_build_j6jrx22p/01_resolve_urls.py",
+      "sha256": "ddfee04a765c98f2c3ff5ec73cfc545ce1c9b65abe19da805dba440fbd9224fc",
+      "size_bytes": 7727,
+      "role": "collection",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/collection/02_probe_comments.py",
+      "source": "/var/folders/j1/p2qvyplx67lfm2kfmhw_tb700000gn/T/rezka_repo_build_j6jrx22p/02_probe_comments.py",
+      "sha256": "d9096c6ab0d4c8d50c74f6971119a86c82564d45bb73e21b867ed4c8dd0695c9",
+      "size_bytes": 8774,
+      "role": "collection",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/collection/03_validate_urls.py",
+      "source": "/var/folders/j1/p2qvyplx67lfm2kfmhw_tb700000gn/T/rezka_repo_build_j6jrx22p/03_validate_urls.py",
+      "sha256": "fcc2c73354f5d61d0e582cf3ab6a1003557baf499c1349bfe5bbe20fe1815c66",
+      "size_bytes": 2696,
+      "role": "collection",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/collection/04_collect_comments.py",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_0/scripts/04_collect_comments.py",
+      "sha256": "5517bc02a1eb4609f7ac1552c29b996b22cfc3b06b6c2c253d5a8a385178c711",
+      "size_bytes": 22062,
+      "role": "collection",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/sampling/04_make_sample_safe.py",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/scripts/04_make_sample_safe.py",
+      "sha256": "424b4501da355bc8989ff02a9f30c6e46b48eae5777e487315fae927c6a02f2b",
+      "size_bytes": 2517,
+      "role": "sampling",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/annotation/06_ollama_coder_v4_fast.py",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/scripts/06_ollama_coder_v4_fast.py",
+      "sha256": "7a241e48ec0f6e161bd82981f0dba6365025bd5412478cf525403ebcfca2257f",
+      "size_bytes": 26993,
+      "role": "annotation",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/analysis/08_analyze_v4.py",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/scripts/08_analyze_ollama_v3.py",
+      "sha256": "0c138fcd0f04a9df88782437e6d2b33e65503f703a09f4a86e39ae5a85af8c8f",
+      "size_bytes": 9384,
+      "role": "analysis",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "scripts/utilities/09_download_posters.py",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/09_download_posters.py",
+      "sha256": "2e4117146921d2a8bddb6ea6414710c4bf0a1f69893407be4769467d003e26d8",
+      "size_bytes": 12468,
+      "role": "utility",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "prompts/comment_coder_v4_compact.txt",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/prompts/comment_coder_v4_compact.txt",
+      "sha256": "94cb86f97c2e09de0eaf9f3e0c262d04cbc13d69bd1d546543afc46cf3ed5412",
+      "size_bytes": 3590,
+      "role": "annotation prompt",
+      "generated_or_patched": false
+    },
+    {
+      "destination": "config/codebook_v2.json",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/config/codebook_v2.json",
+      "sha256": "eaf151167853aa19e39c5e5e9f4c0bd0912b8fa65fab08bca175302a0ff6b6e9",
+      "size_bytes": 2156,
+      "role": "codebook",
+      "generated_or_patched": false
+    },
+    {
+      "destination": "data/films_master.csv",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_0/data/films_master.csv",
+      "sha256": "ea693869dc03a767b50c9a0a28646f006b0b73b8b884ca324f6f902f277274bc",
+      "size_bytes": 11265,
+      "role": "film master list",
+      "generated_or_patched": false
+    },
+    {
+      "destination": "data/comments_sample_2555.csv",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/data/comments_sample_2555.csv",
+      "sha256": "fa698e9019beac652db16ce956e69bad1ac15a74917ecbebabfa8b884bf10fea",
+      "size_bytes": 2367200,
+      "role": "public analytical sample",
+      "generated_or_patched": false
+    },
+    {
+      "destination": "data/sample_2555_v4_labeled_ollama.csv",
+      "source": "/Users/elizavetahilik/Library/Mobile Documents/com~apple~CloudDocs/study_repo/HSE/NIS/00_итоговый_проект/oscar_rezka_comments_llm_stage/data/sample_2555_v4_labeled_ollama.csv",
+      "sha256": "836f9f3c9296d9e2cbc69628650db441ee8aecfa2249e6988efc9445c40d0d40",
+      "size_bytes": 2969713,
+      "role": "completed labeled sample",
+      "generated_or_patched": false
+    },
+    {
+      "destination": "README.md",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "a77428663fdc69cb6f8739938e523e294415b91383d5e7bcc69d085628dc8d64",
+      "size_bytes": 3659,
+      "role": "repository documentation",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "docs/METHODOLOGY.md",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "e41ba54832652b4c38d9f5673ccc53c2614586755a374b0808144772cbfe24e0",
+      "size_bytes": 1590,
+      "role": "methodology documentation",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "data/README.md",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "d0d0459280369d51771b218e2879c407befb39cf49ca9549f12efe14b2c3798b",
+      "size_bytes": 686,
+      "role": "data documentation",
+      "generated_or_patched": true
+    },
+    {
+      "destination": ".gitignore",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "9602fc948aa7a90187484bc70be9ef11e75be4cb02834d67c190eb7e4e91c257",
+      "size_bytes": 664,
+      "role": "Git configuration",
+      "generated_or_patched": true
+    },
+    {
+      "destination": ".gitattributes",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "e4d5a442afbfbf92a1f278245fb25ee7275cf7dffbc5f988686c79fbc2d4c4a3",
+      "size_bytes": 121,
+      "role": "Git configuration",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "requirements.txt",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "73ccc2417464e6abcca8def5a4b98715ee2bf6cc7a112ef7d9b036fcc2300e8a",
+      "size_bytes": 99,
+      "role": "Python dependencies",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "results/.gitkeep",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1,
+      "role": "directory placeholder",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "posters/.gitkeep",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1,
+      "role": "directory placeholder",
+      "generated_or_patched": true
+    },
+    {
+      "destination": "docs/PROVENANCE.csv",
+      "source": "<generated by build_public_repo.py>",
+      "sha256": "6797fed9b83d304c80b2b22884f956c86e5634ea82479ffb8a5b020445756a77",
+      "size_bytes": 5181,
+      "role": "provenance manifest",
+      "generated_or_patched": true
+    }
+  ],
+  "excluded_by_design": [
+    "all storage_state.json files",
+    ".env and .env.example from the GPT branch",
+    "author_salt.txt",
+    "raw comments_raw.csv/jsonl",
+    "raw AJAX page responses",
+    "Ollama checkpoints and partial full-corpus exports",
+    "v2/v3 annotation scripts",
+    "duplicate directories and ZIP patches",
+    "temporary Office, IDE and cache files"
+  ]
+}

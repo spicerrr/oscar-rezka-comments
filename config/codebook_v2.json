@@ -1,0 +1,97 @@
+{
+  "version": "2.0.0",
+  "construct_note": "Кодируются выраженные в тексте оценки, эмоции, объекты оценки, интерпретационные рамки и риторические способы. Внутреннее психологическое состояние автора не устанавливается.",
+  "relevance_primary": [
+    "film_reaction",
+    "technical_platform",
+    "release_or_translation_request",
+    "interpersonal_only",
+    "trailer_or_expectation",
+    "spam_or_irrelevant",
+    "unclear"
+  ],
+  "valence": [
+    "positive",
+    "negative",
+    "mixed",
+    "neutral",
+    "unclear",
+    "not_applicable"
+  ],
+  "emotions": [
+    "admiration",
+    "enjoyment",
+    "amusement",
+    "sadness_or_empathy",
+    "fear_or_tension",
+    "disappointment",
+    "irritation_or_anger",
+    "boredom",
+    "disgust",
+    "confusion"
+  ],
+  "primary_emotion": [
+    "admiration",
+    "enjoyment",
+    "amusement",
+    "sadness_or_empathy",
+    "fear_or_tension",
+    "disappointment",
+    "irritation_or_anger",
+    "boredom",
+    "disgust",
+    "confusion",
+    "no_explicit_emotion",
+    "unclear",
+    "not_applicable"
+  ],
+  "targets": [
+    "film_overall",
+    "plot",
+    "acting",
+    "characters",
+    "visuals",
+    "music_or_sound",
+    "pace_or_duration",
+    "ending",
+    "adaptation_or_franchise",
+    "ideology_or_representation",
+    "award_worthiness",
+    "other"
+  ],
+  "frames": [
+    "aesthetic_craft",
+    "narrative_quality",
+    "performance",
+    "entertainment_and_affect",
+    "ideology_and_representation",
+    "comparison_and_intertextuality",
+    "award_legitimacy",
+    "adaptation_or_franchise_expectations",
+    "unclear"
+  ],
+  "rhetorical_modes": [
+    "literal",
+    "irony_or_sarcasm",
+    "mockery",
+    "hyperbole",
+    "rhetorical_question",
+    "unclear"
+  ],
+  "comparison_result": [
+    "better",
+    "worse",
+    "similar",
+    "mixed",
+    "no_clear_ranking",
+    "not_applicable"
+  ],
+  "oscar_stance": [
+    "deserved",
+    "undeserved",
+    "ambivalent",
+    "discussion_without_position",
+    "not_mentioned",
+    "unclear"
+  ]
+}

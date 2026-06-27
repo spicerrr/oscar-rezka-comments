@@ -1,0 +1,46 @@
+# Secrets and authenticated browser state
+.env
+.env.*
+!.env.example.template
+session/
+session_llm_stage/
+**/storage_state.json
+**/author_salt.txt
+**/cookies*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Collection outputs and raw data
+artifacts/
+data/comments_raw.csv
+data/comments_raw.jsonl
+data/films_resolved.csv
+data/collection_log.csv
+
+# Annotation checkpoints and partial jobs
+data/*_checkpoint.jsonl
+artifacts/ollama_jobs/
+*.log
+
+# Generated outputs
+results/*
+!results/.gitkeep
+posters/*
+!posters/.gitkeep
+
+# Temporary and legacy artifacts
+*.zip
+~$*.pptx
+* (1).py
+tempCodeRunnerFile.py
